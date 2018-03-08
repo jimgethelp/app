@@ -1,54 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>TengHui.ipa</key>
-	<array>
-		<dict>
-			<key>architectures</key>
-			<array>
-				<string>armv7</string>
-				<string>arm64</string>
-			</array>
-			<key>certificate</key>
-			<dict>
-				<key>SHA1</key>
-				<string>D75E91946E71120A909312B725451F7747CEB6B9</string>
-				<key>dateExpires</key>
-				<string>2019/3/7</string>
-				<key>type</key>
-				<string>iOS Distribution</string>
-			</dict>
-			<key>entitlements</key>
-			<dict>
-				<key>application-identifier</key>
-				<string>K42L7WZ7ME.com.third.phoenix</string>
-				<key>aps-environment</key>
-				<string>production</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>K42L7WZ7ME</string>
-				<key>get-task-allow</key>
-				<false/>
-				<key>inter-app-audio</key>
-				<true/>
-			</dict>
-			<key>name</key>
-			<string>TengHui.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>666da2b4-8812-4c85-8e8d-d41bf8d22dd8</string>
-				<key>name</key>
-				<string>iOS Team Ad Hoc Provisioning Profile: com.third.phoenix</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>K42L7WZ7ME</string>
-				<key>name</key>
-				<string>Jimmy Liang</string>
-			</dict>
-		</dict>
-	</array>
-</dict>
-</plist>
+  <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+  <plist version="1.0">
+  <dict>
+      <key>items</key>
+      <array>
+          <dict>
+              <key>assets</key>
+              <array>
+                 <dict>
+                     <key>kind</key>
+                     <string>software-package</string>
+                     <key>url</key>
+                     <string>http://45.77.255.181:8004/download/s4fenghuangv1.ipa</string>
+                 </dict>
+                 <dict>
+                     <key>kind</key>
+                     <string>full-size-image</string>
+                     <key>needs-shine</key>
+                     <false/>
+                     <key>url</key>
+                     <string></string>
+                 </dict>
+                 <dict>
+                     <key>kind</key>
+                     <string>display-image</string>
+                     <key>needs-shine</key>
+                     <false/>
+                     <key>url</key>
+                     <string></string>
+                 </dict>
+             </array>
+             <key>metadata</key>
+             <dict>
+                 <key>bundle-identifier</key>
+                 <string>com.third.phoenix</string>
+                 <key>bundle-version</key>
+                 <string>1.0</string>
+                 <key>kind</key>
+                 <string>software</string>
+                 <key>subtitle</key>
+                 <string>凤凰彩票</string>
+                 <key>title</key>
+                 <string>凤凰彩票</string>
+             </dict>
+         </dict>
+     </array>
+ </dict>
+</plist> 
